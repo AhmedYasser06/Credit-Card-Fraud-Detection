@@ -4,7 +4,24 @@
 This project provides an **end-to-end Credit Card Fraud Detection system** using advanced machine learning and ensemble techniques. It covers **data preprocessing, class balancing, hyperparameter tuning, model training, evaluation, and comparison** to handle the challenges of highly imbalanced fraud datasets.  
 
 ---
+## 📂 Project Structure
 
+```
+Credit-Card-Fraud-Detection/
+│
+├── config/                       # Configuration files (parameters, paths, settings)
+├── data/                         # Raw and processed datasets
+├── docs/                         # Documentation, reports, and notes
+├── models/                       # Saved trained models
+├── __pycache__/                  # Cached Python files
+├── credit_fraud_utils_helper.py  # Utility functions (helpers, preprocessing)
+├── credit_fraud_utils_data.py    # Data handling and feature engineering
+├── credit_fraud_utils_eval.py    # Evaluation metrics and visualization
+├── credit_fraud_train.py         # Main training pipeline
+├── EDA.ipynb                     # Exploratory Data Analysis notebook
+└── README.md                    # Documentation
+```
+---
 ## 🔹 Key Highlights  
 
 ### 🔧 Data Handling & Preprocessing  
